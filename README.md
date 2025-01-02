@@ -1,6 +1,6 @@
 # Ping-Pong
 
-Demo : https://rushabh025.github.io/Alarm_Clock/
+Demo : https://rushabh025.github.io/Ping-Pong/
 
 ## Problem statement 
 Create a Ping Pong. Use ONLY vanilla javascript, no libraries or frameworks allowed for Javascript.
@@ -17,6 +17,10 @@ Create a Ping Pong. Use ONLY vanilla javascript, no libraries or frameworks allo
 
 ## Screenshots:
 **Default Page:**
+![image](https://github.com/user-attachments/assets/4dfd512d-e5c9-41d4-a53c-2e9f7f3de2b7)
+
+**Game Over**
+![image](https://github.com/user-attachments/assets/17d53852-a2b9-4fda-92b3-59be681f3851)
 
 ## Author:
 + Rushabh Mahawarkar
