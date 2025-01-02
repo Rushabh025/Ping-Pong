@@ -1,3 +1,4 @@
+// html element refrences
 const container = document.getElementById('game-container');
 const rodTop = document.getElementById('rod-top');
 const rodBottom = document.getElementById('rod-bottom');
@@ -9,11 +10,12 @@ let rodHeight = rodTop.offsetHeight;
 let ballWidth = ball.offsetWidth;
 let ballHeight = ball.offsetHeight;
 
+// playing area calculation
 let containerWidth = window.innerWidth;
 let containerHeight = window.innerHeight;
 
 let ballDirection = { x: 2, y: 2 }; // Ball movement speed and direction
-let ballPosition = { x: containerWidth / 2, y: containerHeight / 2 }; // Ball position
+let ballPosition = { x: containerWidth / 2, y: containerHeight / 2 }; // Initial Ball position
 let score = 0;
 let highestScore = parseInt(localStorage.getItem('highestScore')) || 0;
 let winner = localStorage.getItem('winner') || "No one";

@@ -18,10 +18,13 @@ body {
 /* Rods */
 .rod {
   position: absolute;
-  width: 20%;
+  width: 16%;
   height: 20px;
   background: #ff6f61;
   border-radius: 10px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
